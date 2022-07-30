@@ -189,18 +189,4 @@ input:focus {
   src: url(./Assets/Fonts/Montserrat-Regular.ttf);
 }
 
-@font-face {
-  font-family: caladea;
-  src: url(./Assets/Fonts/Caladea-Regular.ttf);
-}
-@font-face {
-  font-family: opensans;
-  src: url(./Assets/Fonts/OpenSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: poppins;
-  src: url(./Assets/Fonts/Poppins-Medium.ttf);
-}
-
 /* Setting up fonts End */
