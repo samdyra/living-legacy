@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
-import { skillsData } from "../../../../Constants/Skills";
+import skillsData from "../../../../Constants/Skills";
 
 const Header = () => {
   const {

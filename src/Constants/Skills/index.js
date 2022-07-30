@@ -1,4 +1,9 @@
-export const skillsData = [
+const skillsData = [
+  {
+    image: "image",
+    number: "number",
+    desc: "desc",
+  },
   {
     image: "image",
     number: "number",
@@ -20,3 +25,5 @@ export const skillsData = [
     desc: "desc",
   },
 ];
+
+export default skillsData;
