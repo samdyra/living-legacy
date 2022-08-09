@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./index.module.scss";
-
+import { logo } from "../../assets";
 const NavBar = () => {
   const { navcontainer, navelement, kemkerlogocontainer, linkcontainer, cv } =
     style;
@@ -9,14 +9,10 @@ const NavBar = () => {
     <div className={navcontainer}>
       <div className={navelement}>
         <div className={kemkerlogocontainer}>
-          <a href="/">
-            <a>LOGO</a>
-          </a>
-          <div>
-            <a href="/">Dwiputra Sam</a>
-          </div>
+          <img src={logo}></img>
         </div>
         <div className={linkcontainer}>
+          <a href="/">Portfolio</a>
           <a href="/">Blog</a>
           <a className={cv} href="/">
             Download CV

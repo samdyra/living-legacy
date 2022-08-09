@@ -16,15 +16,17 @@ const Header = () => {
     <section className={container}>
       <article className={main}>
         <div className={desc}>
-          <h3>Hello</h3>
-          <h1>Dwiputra Sam Mulia</h1>
+          <h3>👋 Hello!!! I am</h3>
+          <h1>Dwiputra Sam</h1>
+          <p>I am a Software Engineer</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At,
-            dolorum?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Cupiditate, sunt odio? Voluptate repellat neque dolor accusamus,
+            earum sunt consequuntur molestias.
           </p>
           <div className={connectContainer}>
             <button></button>
-            <p>Follow me</p>
+            <p>Follow me:</p>
             <img></img>
             <img></img>
             <img></img>

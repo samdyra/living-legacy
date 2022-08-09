@@ -1,5 +1,5 @@
 .navcontainer {
-  border-bottom: 1px solid black;
+  padding-top: 10px;
 }
 
 .navelement {
@@ -13,8 +13,8 @@
 
 .kemkerlogocontainer img {
   display: flex;
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 80px;
   align-items: center;
   justify-content: center;
 }
@@ -43,37 +43,32 @@
 }
 
 .linkcontainer a {
-  padding-left: 29px;
-  font-family: poppins;
+  // padding-left: 29px;
+  margin-left: 29px;
+  font-family: qanelasRegular;
   font-style: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.05em;
   text-decoration: none;
-  color: rgba(98, 58, 32, 1);
+  color: rgb(255, 255, 255);
 }
 
 .linkcontainer a:hover {
-  color: rgb(90, 90, 90);
-  transition-duration: 250ms;
-}
-
-.kemkerlogocontainer a {
-  padding-right: 29px;
-  font-family: poppins;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  color: rgb(255, 0, 0);
-}
-
-.kemkerlogocontainer a:hover {
-  color: rgb(81, 81, 81);
+  // color: rgb(157, 157, 157);
   transition-duration: 250ms;
 }
 
 .cv {
-  font-weight: 800;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background: #5855e2;
+  text-align: center;
+  // border: 1px solid red;
+}
+
+.cv:hover {
+  background: cornflowerblue;
+  transition-duration: 250ms;
+  color: white;
 }

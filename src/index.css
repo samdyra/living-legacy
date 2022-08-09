@@ -185,8 +185,13 @@ input:focus {
 
 /* Setting up fonts */
 @font-face {
-  font-family: montserrat;
-  src: url(./Assets/Fonts/Montserrat-Regular.ttf);
+  font-family: qanelasMedium;
+  src: url(./assets/fonts/QanelasSoftMedium.otf);
+}
+
+@font-face {
+  font-family: qanelasRegular;
+  src: url(./assets/fonts/QanelasSoftRegular.otf);
 }
 
 /* Setting up fonts End */
