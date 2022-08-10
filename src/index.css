@@ -86,6 +86,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  /* font-family: qanelasRegular; */
 }
 
 article,
@@ -192,6 +193,10 @@ input:focus {
 @font-face {
   font-family: qanelasRegular;
   src: url(./assets/fonts/QanelasSoftRegular.otf);
+}
+@font-face {
+  font-family: qanelasLight;
+  src: url(./assets/fonts/QanelasSoftLight.otf);
 }
 
 /* Setting up fonts End */
