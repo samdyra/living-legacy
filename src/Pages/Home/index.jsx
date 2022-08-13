@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 import NavBar from "../../Components/Navbar";
-import { Header, Description, MainProjects, SideProjects } from "./Components";
+import { Header, Description, MainProjects, SideProjects, Footer } from "./Components";
 
 const HomeScreen = () => {
   const { container } = style;
@@ -12,6 +12,7 @@ const HomeScreen = () => {
       <Description></Description>
       <MainProjects></MainProjects>
       <SideProjects></SideProjects>
+      <Footer></Footer>
     </div>
   );
 };
