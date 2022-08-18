@@ -21,12 +21,13 @@ const Header = () => {
       <article className={main}>
         <div className={desc}>
           <h3>👋 Hello!!! I am</h3>
-          <h1>Dwiputra Sam</h1>
+          <h1>Dwiputra Sam</h1> 
           <h2>I am a Software Engineer.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Cupiditate, sunt odio? Voluptate repellat neque dolor accusamus,
-            earum sunt consequuntur molestias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa
+            nemo, deleniti facilis at delectus ea aliquid ipsum ullam tempore
+            quas, nobis veniam provident. Sapiente et enim impedit aperiam sequi
+            nemo ex consequuntur ea quis ratione
           </p>
           <div className={connectContainer}>
             <div className={letstalk}>

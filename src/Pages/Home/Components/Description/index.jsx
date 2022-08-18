@@ -12,9 +12,13 @@ const Description = () => {
           <h3>About Me</h3>
           <h1>Who Am I</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut modi
-            nisi quibusdam tempore quod perferendis! Animi, odio? Illo, esse
-            dolores?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+            cupiditate facilis qui expedita quae quam ut consequatur cum tempora
+            porro accusamus, aliquid magni corporis commodi dolores velit
+            necessitatibus? Dolorem nihil, sapiente culpa eveniet dolore odio,
+            id quasi neque voluptas esse laudantium deleniti suscipit? Animi
+            autem a est odio, distinctio dignissimos. Quod perspiciatis nemo
+            sint esse, repellendus reprehenderit quibusdam quaerat beatae!
           </p>
           <button>Download CV</button>
         </div>

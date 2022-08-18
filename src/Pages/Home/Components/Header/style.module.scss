@@ -23,6 +23,8 @@
   line-height: 42px;
   color: #ffffff;
   font-family: qanelasRegular;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .desc h1 {
@@ -31,6 +33,7 @@
   font-size: 62px;
   color: #5855e2;
   font-family: qanelasMedium;
+  margin-bottom: 10px;
 }
 
 .desc h2 {
@@ -50,6 +53,7 @@
   color: rgba(255, 255, 255, 0.719);
   margin-top: 26px;
   width: 705px;
+  line-height: 26px;
 }
 
 .letstalk {
@@ -82,7 +86,7 @@
 
 .connectContainer {
   display: flex;
-  margin-top: 26px;
+  margin-top: 46px;
 }
 
 .connectContainer h6 {
@@ -107,8 +111,8 @@
 }
 
 .onboardingLogo {
-  width: 540px;
-  height: 535px;
+  width: 510px;
+  height: 505px;
 }
 
 .skillsContainer {
