@@ -3,7 +3,6 @@ import style from "./style.module.scss";
 import { SideProjectsData } from "../../../../Constants";
 
 const SideProjects = () => {
-  console.log(SideProjectsData);
   const { container } = style;
   return (
     <article className={container}>
