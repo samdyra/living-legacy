@@ -48,6 +48,10 @@ img {
   right: 8px;
 }
 
+.closeBtn:hover {
+  cursor: pointer;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -55,6 +59,7 @@ img {
   text-align: center;
   margin-top: 3rem;
   padding: 1rem 2rem;
+  line-height: 25px;
 }
 
 .btnContainer {
@@ -81,6 +86,12 @@ img {
   color: #411b57;
 }
 
+.btnOutline:hover {
+  cursor: pointer;
+}
+.btnPrimary:hover {
+  cursor: pointer;
+}
 .bold {
   font-weight: 600;
 }

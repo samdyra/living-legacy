@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import nft from "./nft.jpg";
 import "./index.css";
 import modalData from "../../Constants/modalData";
 
@@ -15,7 +14,7 @@ const Modal = ({ open, onClose }) => {
         }}
         className="modalContainer"
       >
-        <img src={nft} alt="/" />
+        <img src={data.image} alt="/" />
         <div className="modalRight">
           <p className="closeBtn" onClick={onClose}>
             X
@@ -23,28 +22,31 @@ const Modal = ({ open, onClose }) => {
           <div className="content">
             <p>{data.title}</p>
           </div>
-          {counter != 2 ? (
+          {counter != 3 && counter != 0 ? (
             <div className="btnContainer">
               <button
                 className="btnPrimary"
                 onClick={() => setCounter(counter + 1)}
               >
-                <span className="bold">YES</span>, I love NFT's
+                <span className="bold">{data.button1}</span>
               </button>
-              <button
-                className="btnOutline"
-                onClick={() => setCounter(counter - 1)}
-              >
-                <span className="bold">NO</span>, thanks
+              <button className="btnOutline" onClick={onClose}>
+                <span className="bold">{data.button2}</span>
+              </button>
+            </div>
+          ) : counter == 3 ? (
+            <div className="btnContainer">
+              <button className="btnPrimary" onClick={onClose}>
+                <span className="bold">Hehehe</span>
               </button>
             </div>
           ) : (
             <div className="btnContainer">
               <button
-                className="btnOutline"
-                onClick={() => setCounter(counter - 1)}
+                className="btnPrimary"
+                onClick={() => setCounter(counter + 1)}
               >
-                <span className="bold">NO</span>, thanks
+                <span className="bold">{data.button1}</span>
               </button>
             </div>
           )}

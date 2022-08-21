@@ -8,3 +8,8 @@ export { default as ac1 } from "./images/ac1.png";
 export { default as ac2 } from "./images/ac2.png";
 export { default as ac3 } from "./images/ac3.png";
 export { default as ac4 } from "./images/ac4.png";
+export { default as image1 } from "./images/1.jpg";
+export { default as image2 } from "./images/2.jpg";
+export { default as image3 } from "./images/3.jpg";
+export { default as image4 } from "./images/4.jpg";
+
