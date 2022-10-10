@@ -26,7 +26,7 @@ const Header = () => {
         <article className={main}>
           <div className={desc}>
             <h3>👋 Hello!!! I am</h3>
-            <h1>Dwiputra Sam</h1>
+            <h1>Rania Brawijaya</h1>
             <h2>I am a Software Engineer.</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsa
